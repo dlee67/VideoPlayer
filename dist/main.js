@@ -9,7 +9,7 @@
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<router-outlet></router-outlet>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<router-outlet></router-outlet>");
 
 /***/ }),
 
@@ -22,7 +22,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<p>video-player works!</p>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container\">\n    <div class=\"row justify-content-start\">\n      <div class=\"col-4\">\n        One of two columns\n      </div>\n      <div class=\"col-4\">\n        One of two columns\n      </div>\n    </div>\n    <div class=\"row justify-content-center\">\n      <div class=\"col-4\">\n        One of two columns\n      </div>\n      <div class=\"col-4\">\n        One of two columns\n      </div>\n    </div>\n    <div class=\"row justify-content-end\">\n      <div class=\"col-4\">\n        One of two columns\n      </div>\n      <div class=\"col-4\">\n        One of two columns\n      </div>\n    </div>\n    <div class=\"row justify-content-around\">\n      <div class=\"col-4\">\n        One of two columns\n      </div>\n      <div class=\"col-4\">\n        One of two columns\n      </div>\n    </div>\n    <div class=\"row justify-content-between\">\n      <div class=\"col-4\">\n        One of two columns\n      </div>\n      <div class=\"col-4\">\n        One of two columns\n      </div>\n    </div>\n  </div>");
 
 /***/ }),
 
