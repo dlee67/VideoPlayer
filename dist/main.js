@@ -22,7 +22,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container\">\n    <div class=\"row justify-content-start\">\n      <div class=\"col-4\">\n        One of two columns\n      </div>\n      <div class=\"col-4\">\n        One of two columns\n      </div>\n    </div>\n    <div class=\"row justify-content-center\">\n      <div class=\"col-4\">\n        One of two columns\n      </div>\n      <div class=\"col-4\">\n        One of two columns\n      </div>\n    </div>\n    <div class=\"row justify-content-end\">\n      <div class=\"col-4\">\n        One of two columns\n      </div>\n      <div class=\"col-4\">\n        One of two columns\n      </div>\n    </div>\n    <div class=\"row justify-content-around\">\n      <div class=\"col-4\">\n        One of two columns\n      </div>\n      <div class=\"col-4\">\n        One of two columns\n      </div>\n    </div>\n    <div class=\"row justify-content-between\">\n      <div class=\"col-4\">\n        One of two columns\n      </div>\n      <div class=\"col-4\">\n        One of two columns\n      </div>\n    </div>\n  </div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col-sm-8\">\n      Video goes here\n    </div>\n    <div class=\"col-sm-4\">\n      List goes here\n    </div>\n  </div>\n</div>");
 
 /***/ }),
 
