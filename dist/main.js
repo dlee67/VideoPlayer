@@ -13,6 +13,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/list/list.component.html":
+/*!*******************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/list/list.component.html ***!
+  \*******************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<p class=\"video-list\">list works!</p>\n");
+
+/***/ }),
+
 /***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/video-player/video-player.component.html":
 /*!***********************************************************************************************************!*\
   !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/video-player/video-player.component.html ***!
@@ -22,7 +35,20 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col-sm-8\">\n      Video goes here\n    </div>\n    <div class=\"col-sm-4\">\n      List goes here\n    </div>\n  </div>\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container-fluid\">\n  <div class=\"row video-and-list\">\n    <a href=\"#\" data-activates=\"slide-out\" class=\"btn btn-primary p-3 button-collapse open-list\">\n      <i class=\"fas fa-bars\"></i>\n    </a>\n    <div class=\"col-sm-4 list-container m-0\">\n      <app-list></app-list>\n    </div>\n    <div class=\"col-sm-8 justify-content-center m-0\">\n      <app-video></app-video>\n    </div>\n  </div>\n</div>");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/video/video.component.html":
+/*!*********************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/components/video/video.component.html ***!
+  \*********************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<iframe src=\"https://www.youtube.com/embed/WELBnE33dpY\"></iframe>");
 
 /***/ }),
 
@@ -149,6 +175,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
 /* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
 /* harmony import */ var _components_video_player_video_player_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/video-player/video-player.component */ "./src/app/components/video-player/video-player.component.ts");
+/* harmony import */ var _components_video_video_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/video/video.component */ "./src/app/components/video/video.component.ts");
+/* harmony import */ var _components_list_list_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/list/list.component */ "./src/app/components/list/list.component.ts");
+
+
 
 
 
@@ -162,7 +192,9 @@ var AppModule = /** @class */ (function () {
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
             declarations: [
                 _app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"],
-                _components_video_player_video_player_component__WEBPACK_IMPORTED_MODULE_5__["VideoPlayerComponent"]
+                _components_video_player_video_player_component__WEBPACK_IMPORTED_MODULE_5__["VideoPlayerComponent"],
+                _components_video_video_component__WEBPACK_IMPORTED_MODULE_6__["VideoComponent"],
+                _components_list_list_component__WEBPACK_IMPORTED_MODULE_7__["ListComponent"]
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
@@ -179,6 +211,54 @@ var AppModule = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/components/list/list.component.css":
+/*!****************************************************!*\
+  !*** ./src/app/components/list/list.component.css ***!
+  \****************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvbGlzdC9saXN0LmNvbXBvbmVudC5jc3MifQ== */");
+
+/***/ }),
+
+/***/ "./src/app/components/list/list.component.ts":
+/*!***************************************************!*\
+  !*** ./src/app/components/list/list.component.ts ***!
+  \***************************************************/
+/*! exports provided: ListComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ListComponent", function() { return ListComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+
+
+var ListComponent = /** @class */ (function () {
+    function ListComponent() {
+    }
+    ListComponent.prototype.ngOnInit = function () {
+    };
+    ListComponent.ctorParameters = function () { return []; };
+    ListComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-list',
+            template: Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! raw-loader!./list.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/list/list.component.html")).default,
+            styles: [Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! ./list.component.css */ "./src/app/components/list/list.component.css")).default]
+        }),
+        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [])
+    ], ListComponent);
+    return ListComponent;
+}());
+
+
+
+/***/ }),
+
 /***/ "./src/app/components/video-player/video-player.component.css":
 /*!********************************************************************!*\
   !*** ./src/app/components/video-player/video-player.component.css ***!
@@ -188,7 +268,7 @@ var AppModule = /** @class */ (function () {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvdmlkZW8tcGxheWVyL3ZpZGVvLXBsYXllci5jb21wb25lbnQuY3NzIn0= */");
+/* harmony default export */ __webpack_exports__["default"] = (".open-list {\n    position: absolute;\n    z-index: 2;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy92aWRlby1wbGF5ZXIvdmlkZW8tcGxheWVyLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxrQkFBa0I7SUFDbEIsVUFBVTtBQUNkIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy92aWRlby1wbGF5ZXIvdmlkZW8tcGxheWVyLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIub3Blbi1saXN0IHtcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgei1pbmRleDogMjtcbn0iXX0= */");
 
 /***/ }),
 
@@ -221,6 +301,54 @@ var VideoPlayerComponent = /** @class */ (function () {
         Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [])
     ], VideoPlayerComponent);
     return VideoPlayerComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/components/video/video.component.css":
+/*!******************************************************!*\
+  !*** ./src/app/components/video/video.component.css ***!
+  \******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvdmlkZW8vdmlkZW8uY29tcG9uZW50LmNzcyJ9 */");
+
+/***/ }),
+
+/***/ "./src/app/components/video/video.component.ts":
+/*!*****************************************************!*\
+  !*** ./src/app/components/video/video.component.ts ***!
+  \*****************************************************/
+/*! exports provided: VideoComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "VideoComponent", function() { return VideoComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+
+
+var VideoComponent = /** @class */ (function () {
+    function VideoComponent() {
+    }
+    VideoComponent.prototype.ngOnInit = function () {
+    };
+    VideoComponent.ctorParameters = function () { return []; };
+    VideoComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-video',
+            template: Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! raw-loader!./video.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/video/video.component.html")).default,
+            styles: [Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! ./video.component.css */ "./src/app/components/video/video.component.css")).default]
+        }),
+        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [])
+    ], VideoComponent);
+    return VideoComponent;
 }());
 
 

@@ -1,7 +1,4 @@
-.container {
-    height: 100%;
+.open-list {
+    position: absolute;
+    z-index: 2;
 }
-
-/* .video-and-list {
-    height: 600px;
-} */

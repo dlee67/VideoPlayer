@@ -1,10 +1,13 @@
-<div class="container">
-  <div class="row video-and-list vh-100">
-    <div class="col-sm-8 justify-content-center">
-      <app-video></app-video>
-    </div>
-    <div class="col-sm-4 list-container">
+<div class="container-fluid">
+  <div class="row video-and-list">
+    <a href="#" data-activates="slide-out" class="btn btn-primary p-3 button-collapse open-list">
+      <i class="fas fa-bars"></i>
+    </a>
+    <div class="col-sm-4 list-container m-0">
       <app-list></app-list>
+    </div>
+    <div class="col-sm-8 justify-content-center m-0">
+      <app-video></app-video>
     </div>
   </div>
 </div>
