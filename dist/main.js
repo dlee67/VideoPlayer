@@ -35,7 +35,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container-fluid\">\n  <div class=\"row video-and-list\">\n    <a href=\"#\" data-activates=\"slide-out\" class=\"btn btn-primary p-3 button-collapse open-list\">\n      <i class=\"fas fa-bars\"></i>\n    </a>\n    <div class=\"col-sm-4 list-container m-0\">\n      <app-list></app-list>\n    </div>\n    <div class=\"col-sm-8 justify-content-center m-0\">\n      <app-video></app-video>\n    </div>\n  </div>\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container-fluid hv-100 p-0\">\n  <div class=\"row video-and-list\">\n    <a href=\"#\" data-activates=\"slide-out\" class=\"btn btn-primary p-3 button-collapse open-list\">\n      <i class=\"fas fa-bars\"></i>\n    </a>\n    <div class=\"col-sm-4 list-container p-0\">\n      <app-list></app-list>\n    </div>\n    <div class=\"col-sm-8 justify-content-center p-0\">\n      <app-video></app-video>\n    </div>\n  </div>\n</div>");
 
 /***/ }),
 
