@@ -11,7 +11,6 @@ parent tag, or they won't work.
 <del>
 # jQuery ...
 Some feature for Bootstrap won't work (like collapse) without jQuery.
-</dev>
-
+</del>
 
 There is a consensus in the community that I should use ngBootstrap instead.
