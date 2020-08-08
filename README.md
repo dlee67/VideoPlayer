@@ -14,3 +14,4 @@ Some feature for Bootstrap won't work (like collapse) without jQuery.
 </del>
 
 There is a consensus in the community that I should use ngBootstrap instead.
+Oh gosh, Bootstrap is a log more complicated than I thought.
