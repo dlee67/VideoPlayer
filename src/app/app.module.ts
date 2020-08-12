@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { VideoPlayerComponent } from './components/video-player/video-player.component';
 import { VideoComponent } from './components/video/video.component';
 import { ListComponent } from './components/list/list.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ListComponent } from './components/list/list.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
