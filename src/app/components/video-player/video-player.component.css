@@ -1,4 +1,7 @@
+.video-and-list {
+    height: 100%;
+}
+
 .youtube-video-container {
-    height: 100vh;
     width: 100%;
 }

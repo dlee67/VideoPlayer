@@ -22,7 +22,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<!-- <p class=\"video-list\">list works!</p> -->\n<a class=\"song\" href=\"https://www.youtube.com/watch?v=1FksevjN-SM\">\n    Buying goods at Palmira\n</a>\n<a class=\"song\" href=\"https://www.youtube.com/watch?v=pHi-v9NUBbQ\">\n    Good Feather\n</a>\n<a class=\"song\" href=\"https://www.youtube.com/watch?v=4z5p5SceJLQ\">\n    Blue Skies\n</a>\n<a class=\"song\" href=\"https://www.youtube.com/watch?v=lBmPvWyQ-HY\">\n    Mechanized Memories - in the end -\n</a>\n<a class=\"song\" href=\"https://www.youtube.com/watch?v=SKoDqyZ7BQI\">\n    Transformers Energon opening theme\n</a>\n<a class=\"song\" href=\"https://www.youtube.com/watch?v=gDqRVZqlVcQ\">\n    Shining\n</a>\n<a class=\"song\" href=\"https://www.youtube.com/results?search_query=sekiro+seekers\">\n    Seekers\n</a>\n<a class=\"song\" href=\"https://www.youtube.com/watch?v=vUBiRXXwqdI\">\n    Peril\n</a>\n<a class=\"song\" href=\"https://www.youtube.com/watch?v=3IzDPgoI8TU\">\n    Unyielding\n</a>\n<a class=\"song\" href=\"https://www.youtube.com/watch?v=0JBlWOQ6WHY\">\n    Agitator\n</a>\n<a class=\"song\" href=\"https://www.youtube.com/watch?v=XDvM_BFNJao&list=PLo2bwXCunMFjvsdBRQ4MmcoF_vHsL-JQL\">\n    \"Will humans be able to co-exist with sentient robots?\" - the main theme of Mega Man X and Astro Boy\n</a>\n<a class=\"song\" href=\"https://www.youtube.com/watch?v=CnwrAcRCHZQ\">\n    \"That world had no sky. (その世界に、空は無かった)\" - Armored Core 3 catch phrase\n</a>\n<a class=\"song\" href=\"https://www.youtube.com/watch?v=vWgFqsq6rOY\">\n    Morning, Lemontea\n</a>");
+/* harmony default export */ __webpack_exports__["default"] = ("<ul class=\"list-group video-list\">\n    <a class=\"song list-group-item\" href=\"https://www.youtube.com/watch?v=1FksevjN-SM\">\n        Buying goods at Palmira\n    </a>\n    <a class=\"song list-group-item\" href=\"https://www.youtube.com/watch?v=pHi-v9NUBbQ\">\n        Good Feather\n    </a>\n    <a class=\"song list-group-item\" href=\"https://www.youtube.com/watch?v=4z5p5SceJLQ\">\n        Blue Skies\n    </a>\n    <a class=\"song list-group-item\" href=\"https://www.youtube.com/watch?v=lBmPvWyQ-HY\">\n        Mechanized Memories - in the end -\n    </a>\n    <a class=\"song list-group-item\" href=\"https://www.youtube.com/watch?v=SKoDqyZ7BQI\">\n        Transformers Energon opening theme\n    </a>\n    <a class=\"song list-group-item\" href=\"https://www.youtube.com/watch?v=gDqRVZqlVcQ\">\n        Shining\n    </a>\n    <a class=\"song list-group-item\" href=\"https://www.youtube.com/results?search_query=sekiro+seekers\">\n        Seekers\n    </a>\n    <a class=\"song list-group-item\" href=\"https://www.youtube.com/watch?v=vUBiRXXwqdI\">\n        Peril\n    </a>\n    <a class=\"song list-group-item\" href=\"https://www.youtube.com/watch?v=3IzDPgoI8TU\">\n        Unyielding\n    </a>\n    <a class=\"song list-group-item\" href=\"https://www.youtube.com/watch?v=0JBlWOQ6WHY\">\n        Agitator\n    </a>\n    <a class=\"song list-group-item\" href=\"https://www.youtube.com/watch?v=XDvM_BFNJao&list=PLo2bwXCunMFjvsdBRQ4MmcoF_vHsL-JQL\">\n        \"Will humans be able to co-exist with sentient robots?\" - the main theme of Mega Man X and Astro Boy\n    </a>\n    <a class=\"song list-group-item\" href=\"https://www.youtube.com/watch?v=CnwrAcRCHZQ\">\n        \"That world had no sky. (その世界に、空は無かった)\" - Armored Core 3 catch phrase\n    </a>\n    <a class=\"song list-group-item\" href=\"https://www.youtube.com/watch?v=vWgFqsq6rOY\">\n        Morning, Lemontea\n    </a>\n    <a class=\"song list-group-item\" href=\"https://www.youtube.com/watch?v=c_vUcBE0Rxk&t\">\n        Alright, I am alright.\n    </a>\n    <a class=\"song list-group-item\" href=\"https://www.youtube.com/watch?v=-x7_hnc4GS4\">\n        Last-Feather(Metal Wolf Chaos; (メタルウルフカオス)QuickMix\n    </a>\n</ul>");
 
 /***/ }),
 
@@ -35,7 +35,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container-fluid hv-100 p-0\">\n  <div class=\"row video-and-list\">\n    <div class=\"col-3 list-container p-0\">\n      <app-list></app-list>\n    </div>\n    <div class=\"youtube-video-container col-9 justify-content-center p-0\">\n      <app-video></app-video>\n    </div>\n  </div>\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container-fluid p-0 video-and-list\">\n  <div class=\"row\">\n    <div class=\"col-3 list-container p-0\">\n      <app-list></app-list>\n    </div>\n    <div class=\"youtube-video-container col-9 justify-content-center p-0\">\n      <app-video></app-video>\n    </div>\n  </div>\n</div>");
 
 /***/ }),
 
@@ -223,7 +223,7 @@ var AppModule = /** @class */ (function () {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvbGlzdC9saXN0LmNvbXBvbmVudC5jc3MifQ== */");
+/* harmony default export */ __webpack_exports__["default"] = (".video-list {\n    overflow-y: auto;\n    height: 100vh;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9saXN0L2xpc3QuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGdCQUFnQjtJQUNoQixhQUFhO0FBQ2pCIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9saXN0L2xpc3QuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi52aWRlby1saXN0IHtcbiAgICBvdmVyZmxvdy15OiBhdXRvO1xuICAgIGhlaWdodDogMTAwdmg7XG59Il19 */");
 
 /***/ }),
 
@@ -271,7 +271,7 @@ var ListComponent = /** @class */ (function () {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".youtube-video-container {\n    height: 100vh;\n    width: 100%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy92aWRlby1wbGF5ZXIvdmlkZW8tcGxheWVyLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxhQUFhO0lBQ2IsV0FBVztBQUNmIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy92aWRlby1wbGF5ZXIvdmlkZW8tcGxheWVyLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIueW91dHViZS12aWRlby1jb250YWluZXIge1xuICAgIGhlaWdodDogMTAwdmg7XG4gICAgd2lkdGg6IDEwMCU7XG59Il19 */");
+/* harmony default export */ __webpack_exports__["default"] = (".video-and-list {\n    height: 100%;\n}\n\n.youtube-video-container {\n    width: 100%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy92aWRlby1wbGF5ZXIvdmlkZW8tcGxheWVyLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxZQUFZO0FBQ2hCOztBQUVBO0lBQ0ksV0FBVztBQUNmIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy92aWRlby1wbGF5ZXIvdmlkZW8tcGxheWVyLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIudmlkZW8tYW5kLWxpc3Qge1xuICAgIGhlaWdodDogMTAwJTtcbn1cblxuLnlvdXR1YmUtdmlkZW8tY29udGFpbmVyIHtcbiAgICB3aWR0aDogMTAwJTtcbn0iXX0= */");
 
 /***/ }),
 
@@ -319,7 +319,7 @@ var VideoPlayerComponent = /** @class */ (function () {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".youtube-video {\n    height: 100%;\n    width: 100%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy92aWRlby92aWRlby5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksWUFBWTtJQUNaLFdBQVc7QUFDZiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvdmlkZW8vdmlkZW8uY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi55b3V0dWJlLXZpZGVvIHtcbiAgICBoZWlnaHQ6IDEwMCU7XG4gICAgd2lkdGg6IDEwMCU7XG59Il19 */");
+/* harmony default export */ __webpack_exports__["default"] = (".youtube-video {\n    height: 100vh;\n    width: 100%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy92aWRlby92aWRlby5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksYUFBYTtJQUNiLFdBQVc7QUFDZiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvdmlkZW8vdmlkZW8uY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi55b3V0dWJlLXZpZGVvIHtcbiAgICBoZWlnaHQ6IDEwMHZoO1xuICAgIHdpZHRoOiAxMDAlO1xufSJdfQ== */");
 
 /***/ }),
 
