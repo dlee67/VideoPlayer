@@ -22,7 +22,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<ul class=\"list-group video-list\">\n    <a class=\"song list-group-item\" href=\"https://www.youtube.com/watch?v=1FksevjN-SM\">\n        Buying goods at Palmira\n    </a>\n    <a class=\"song list-group-item\" href=\"https://www.youtube.com/watch?v=pHi-v9NUBbQ\">\n        Good Feather\n    </a>\n    <a class=\"song list-group-item\" href=\"https://www.youtube.com/watch?v=4z5p5SceJLQ\">\n        Blue Skies\n    </a>\n    <a class=\"song list-group-item\" href=\"https://www.youtube.com/watch?v=lBmPvWyQ-HY\">\n        Mechanized Memories - in the end -\n    </a>\n    <a class=\"song list-group-item\" href=\"https://www.youtube.com/watch?v=SKoDqyZ7BQI\">\n        Transformers Energon opening theme\n    </a>\n    <a class=\"song list-group-item\" href=\"https://www.youtube.com/watch?v=gDqRVZqlVcQ\">\n        Shining\n    </a>\n    <a class=\"song list-group-item\" href=\"https://www.youtube.com/results?search_query=sekiro+seekers\">\n        Seekers\n    </a>\n    <a class=\"song list-group-item\" href=\"https://www.youtube.com/watch?v=vUBiRXXwqdI\">\n        Peril\n    </a>\n    <a class=\"song list-group-item\" href=\"https://www.youtube.com/watch?v=3IzDPgoI8TU\">\n        Unyielding\n    </a>\n    <a class=\"song list-group-item\" href=\"https://www.youtube.com/watch?v=0JBlWOQ6WHY\">\n        Agitator\n    </a>\n    <a class=\"song list-group-item\" href=\"https://www.youtube.com/watch?v=XDvM_BFNJao&list=PLo2bwXCunMFjvsdBRQ4MmcoF_vHsL-JQL\">\n        \"Will humans be able to co-exist with sentient robots?\" - the main theme of Mega Man X and Astro Boy\n    </a>\n    <a class=\"song list-group-item\" href=\"https://www.youtube.com/watch?v=CnwrAcRCHZQ\">\n        \"That world had no sky. (その世界に、空は無かった)\" - Armored Core 3 catch phrase\n    </a>\n    <a class=\"song list-group-item\" href=\"https://www.youtube.com/watch?v=vWgFqsq6rOY\">\n        Morning, Lemontea\n    </a>\n    <a class=\"song list-group-item\" href=\"https://www.youtube.com/watch?v=c_vUcBE0Rxk&t\">\n        Alright, I am alright.\n    </a>\n    <a class=\"song list-group-item\" href=\"https://www.youtube.com/watch?v=-x7_hnc4GS4\">\n        Last-Feather(Metal Wolf Chaos; (メタルウルフカオス)QuickMix\n    </a>\n</ul>");
+/* harmony default export */ __webpack_exports__["default"] = ("<ul class=\"list-group video-list\">\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button><button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n</ul>");
 
 /***/ }),
 
@@ -239,21 +239,26 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ListComponent", function() { return ListComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _services_electron_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../services/electron.service */ "./src/app/services/electron.service.ts");
+
 
 
 var ListComponent = /** @class */ (function () {
-    function ListComponent() {
+    function ListComponent(electronService) {
+        this.electronService = electronService;
     }
     ListComponent.prototype.ngOnInit = function () {
     };
-    ListComponent.ctorParameters = function () { return []; };
+    ListComponent.ctorParameters = function () { return [
+        { type: _services_electron_service__WEBPACK_IMPORTED_MODULE_2__["ElectronService"] }
+    ]; };
     ListComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
             selector: 'app-list',
             template: Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! raw-loader!./list.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/list/list.component.html")).default,
             styles: [Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! ./list.component.css */ "./src/app/components/list/list.component.css")).default]
         }),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [])
+        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [_services_electron_service__WEBPACK_IMPORTED_MODULE_2__["ElectronService"]])
     ], ListComponent);
     return ListComponent;
 }());
@@ -335,23 +340,79 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "VideoComponent", function() { return VideoComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _services_electron_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../services/electron.service */ "./src/app/services/electron.service.ts");
+
 
 
 var VideoComponent = /** @class */ (function () {
-    function VideoComponent() {
+    function VideoComponent(electronService) {
+        this.electronService = electronService;
     }
     VideoComponent.prototype.ngOnInit = function () {
     };
-    VideoComponent.ctorParameters = function () { return []; };
+    VideoComponent.ctorParameters = function () { return [
+        { type: _services_electron_service__WEBPACK_IMPORTED_MODULE_2__["ElectronService"] }
+    ]; };
     VideoComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
             selector: 'app-video',
             template: Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! raw-loader!./video.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/video/video.component.html")).default,
             styles: [Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! ./video.component.css */ "./src/app/components/video/video.component.css")).default]
         }),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [])
+        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [_services_electron_service__WEBPACK_IMPORTED_MODULE_2__["ElectronService"]])
     ], VideoComponent);
     return VideoComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/services/electron.service.ts":
+/*!**********************************************!*\
+  !*** ./src/app/services/electron.service.ts ***!
+  \**********************************************/
+/*! exports provided: ElectronService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ElectronService", function() { return ElectronService; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+
+
+var ElectronService = /** @class */ (function () {
+    function ElectronService() {
+        this.ipcRenderer = window.require('electron').ipcRenderer;
+        this.webFrame = window.require('electron').webFrame;
+        this.remote = window.require('electron').remote;
+        this.child_process = window.require('child_process');
+        this.fs = this.remote.require('fs');
+        this.tmp = this.remote.require('tmp');
+        this.path = this.remote.require('path');
+        this.systemPreferences = this.remote.require('electron').systemPreferences;
+        this.app = this.remote.require('electron').app;
+        this.shell = this.remote.require('electron').shell;
+    }
+    ElectronService.prototype.send = function (channel) {
+        var args = [];
+        for (var _i = 1; _i < arguments.length; _i++) {
+            args[_i - 1] = arguments[_i];
+        }
+        this.ipcRenderer.send(channel, args);
+    };
+    ElectronService.prototype.on = function (channel, listener) {
+        this.ipcRenderer.on(channel, listener);
+    };
+    ElectronService.ctorParameters = function () { return []; };
+    ElectronService = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
+            providedIn: 'root'
+        }),
+        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [])
+    ], ElectronService);
+    return ElectronService;
 }());
 
 
