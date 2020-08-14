@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { ElectronService } from '../../services/electron.service';
+import { Store, select } from '@ngrx/store';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-video',
@@ -8,7 +9,11 @@ import { ElectronService } from '../../services/electron.service';
 })
 export class VideoComponent implements OnInit {
 
-  constructor(private electronService: ElectronService) {}
+  video$: Observable<string>
+
+  constructor(private store: Store<{ video: string }>) {
+    this.video$ = store.pipe(select('video'));
+  }
 
   ngOnInit(): void {
   }

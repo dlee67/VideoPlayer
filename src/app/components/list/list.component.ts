@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { ElectronService } from '../../services/electron.service';
+import { Store, select } from '@ngrx/store';
+import { Observable } from 'rxjs';
+import { AppState, videoSelector } from '../../selector/video.selector';
 
 @Component({
   selector: 'app-list',
@@ -8,9 +10,13 @@ import { ElectronService } from '../../services/electron.service';
 })
 export class ListComponent implements OnInit {
 
-  constructor(private electronService: ElectronService) { }
+  constructor(private videoStore: Store<AppState>) { }
 
   ngOnInit(): void {
   }
 
+  buttonClicked() {
+    console.log("Button clicked");
+    this.videoStore.dispatch({ type: "VIDEO_CHANGED" });
+  }
 }
