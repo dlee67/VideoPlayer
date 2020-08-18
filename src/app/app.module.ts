@@ -10,6 +10,8 @@ import { ListComponent } from './components/list/list.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { videoReducer } from './reducer/video.reducer';
+import { EffectsModule } from '@ngrx/effects';
+import { VideoEffects } from './video.effects';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,8 @@ import { videoReducer } from './reducer/video.reducer';
       { video: videoReducer }
     ),
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    EffectsModule.forRoot([VideoEffects, ])
   ],
   providers: [],
   bootstrap: [AppComponent]

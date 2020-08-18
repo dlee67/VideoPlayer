@@ -10,9 +10,14 @@ import { Observable } from 'rxjs';
 export class VideoComponent implements OnInit {
 
   video$: Observable<string>
+  videoLink: string
 
   constructor(private store: Store<{ video: string }>) {
     this.video$ = store.pipe(select('video'));
+    this.video$.subscribe((videoLink: string) => {
+      console.log("In subscribe(), got: " + videoLink);
+      this.videoLink = videoLink;
+    });
   }
 
   ngOnInit(): void {

@@ -1,10 +1,19 @@
 import {Action} from '@ngrx/store';
+import {VideoAction} from '../action/video.actions';
 
-export function videoReducer(state, action: Action) {
+export interface VideoState {
+    videoLink: string;
+};
+
+const initialVideo: VideoState = {
+    videoLink: "Nothing here"
+};
+
+export function videoReducer(state: VideoState = initialVideo, action: VideoAction): VideoState {
     console.log("In video reducer");
     switch(action.type) {
-        case "VIDEO_CHANGED":
-            console.log("In video changed");
-            return "from video reducer";
+        case "VIDEO_CHANGED": {
+            return action.payload;
+        }
     }
 }

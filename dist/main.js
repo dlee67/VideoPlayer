@@ -355,8 +355,13 @@ __webpack_require__.r(__webpack_exports__);
 
 var VideoComponent = /** @class */ (function () {
     function VideoComponent(store) {
+        var _this = this;
         this.store = store;
         this.video$ = store.pipe(Object(_ngrx_store__WEBPACK_IMPORTED_MODULE_2__["select"])('video'));
+        this.video$.subscribe(function (videoLink) {
+            console.log("In subscribe(), got: " + videoLink);
+            _this.videoLink = videoLink;
+        });
     }
     VideoComponent.prototype.ngOnInit = function () {
     };
