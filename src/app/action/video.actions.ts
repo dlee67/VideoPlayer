@@ -3,9 +3,7 @@ import { createAction, props } from '@ngrx/store';
 
 export class VideoAction implements Action {
   type: string;
-  payload: {
-    videoLink: string,
-  }
+  payload: string;
 }
 
 export class LoadVideo implements Action {

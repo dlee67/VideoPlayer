@@ -17,6 +17,6 @@ export class ListComponent implements OnInit {
 
   buttonClicked() {
     console.log("Button clicked");
-    this.videoStore.dispatch({ type: "VIDEO_CHANGED"});
+    this.videoStore.dispatch({ type: "VIDEO_CHANGED", payload: "example payload"});
   }
 }

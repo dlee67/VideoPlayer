@@ -256,7 +256,7 @@ var ListComponent = /** @class */ (function () {
     };
     ListComponent.prototype.buttonClicked = function () {
         console.log("Button clicked");
-        this.videoStore.dispatch({ type: "VIDEO_CHANGED" });
+        this.videoStore.dispatch({ type: "VIDEO_CHANGED", payload: "example payload" });
     };
     ListComponent.ctorParameters = function () { return [
         { type: _ngrx_store__WEBPACK_IMPORTED_MODULE_2__["Store"] }
@@ -357,7 +357,7 @@ var VideoComponent = /** @class */ (function () {
     function VideoComponent(store) {
         var _this = this;
         this.store = store;
-        this.video$ = store.pipe(Object(_ngrx_store__WEBPACK_IMPORTED_MODULE_2__["select"])('video'));
+        this.video$ = store.pipe(Object(_ngrx_store__WEBPACK_IMPORTED_MODULE_2__["select"])('videoLink'));
         this.video$.subscribe(function (videoLink) {
             console.log("In subscribe(), got: " + videoLink);
             _this.videoLink = videoLink;
@@ -393,12 +393,17 @@ var VideoComponent = /** @class */ (function () {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "videoReducer", function() { return videoReducer; });
+;
+var initialVideo = {
+    videoLink: "Nothing here"
+};
 function videoReducer(state, action) {
+    if (state === void 0) { state = initialVideo; }
     console.log("In video reducer");
     switch (action.type) {
         case "VIDEO_CHANGED":
-            console.log("In video changed");
-            return "from video reducer";
+            console.log("action payload at: " + action.payload);
+            return action.payload;
     }
 }
 
