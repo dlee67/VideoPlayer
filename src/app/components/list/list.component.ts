@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Store, select } from '@ngrx/store';
-import { Observable } from 'rxjs';
-import { AppState, videoSelector } from '../../selector/video.selector';
+import { Store } from '@ngrx/store';
+import { VideoState } from '../../reducer/video.reducer';
 
 @Component({
   selector: 'app-list',
@@ -10,7 +9,7 @@ import { AppState, videoSelector } from '../../selector/video.selector';
 })
 export class ListComponent implements OnInit {
 
-  constructor(private videoStore: Store<AppState>) { }
+  constructor(private videoStore: Store<VideoState>) { }
 
   ngOnInit(): void {
   }

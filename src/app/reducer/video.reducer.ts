@@ -1,4 +1,3 @@
-import {Action} from '@ngrx/store';
 import {VideoAction} from '../action/video.actions';
 
 export interface VideoState {
