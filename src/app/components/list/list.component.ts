@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { VideoState } from '../../reducer/video.reducer';
 
@@ -8,6 +8,7 @@ import { VideoState } from '../../reducer/video.reducer';
   styleUrls: ['./list.component.css']
 })
 export class ListComponent implements OnInit {
+  @ViewChild('someVideo') myDiv: ElementRef;
 
   constructor(private videoStore: Store<VideoState>) { }
 
@@ -15,7 +16,8 @@ export class ListComponent implements OnInit {
   }
 
   buttonClicked() {
-    console.log("Button clicked");
+    console.log("Pretty sure this is not a best practice: " + 
+      this.myDiv.nativeElement.innerHTML);
     this.videoStore.dispatch({ type: "VIDEO_CHANGED", payload: "example payload"});
   }
 }

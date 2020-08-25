@@ -22,7 +22,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<ul class=\"list-group video-list\">\n    <button (click)=\"buttonClicked()\" class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button><button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n</ul>");
+/* harmony default export */ __webpack_exports__["default"] = ("<ul class=\"list-group video-list\">\n    <button (click)=\"buttonClicked()\" class=\"song list-group-item\" #someVideo>\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button><button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n</ul>");
 
 /***/ }),
 
@@ -255,12 +255,16 @@ var ListComponent = /** @class */ (function () {
     ListComponent.prototype.ngOnInit = function () {
     };
     ListComponent.prototype.buttonClicked = function () {
-        console.log("Button clicked");
+        console.log("Pretty sure this is not a best practice: " +
+            this.myDiv.nativeElement.innerHTML);
         this.videoStore.dispatch({ type: "VIDEO_CHANGED", payload: "example payload" });
     };
     ListComponent.ctorParameters = function () { return [
         { type: _ngrx_store__WEBPACK_IMPORTED_MODULE_2__["Store"] }
     ]; };
+    ListComponent.propDecorators = {
+        myDiv: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: ['someVideo',] }]
+    };
     ListComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
             selector: 'app-list',
