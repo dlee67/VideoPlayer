@@ -16,8 +16,7 @@ export class ListComponent implements OnInit {
   }
 
   buttonClicked() {
-    console.log("Pretty sure this is not a best practice: " + 
-      this.myDiv.nativeElement.innerHTML);
-    this.videoStore.dispatch({ type: "VIDEO_CHANGED", payload: "example payload"});
+    this.videoStore.dispatch({ type: "VIDEO_CHANGED", 
+      payload: this.myDiv.nativeElement.innerHTML});
   }
 }

@@ -255,9 +255,8 @@ var ListComponent = /** @class */ (function () {
     ListComponent.prototype.ngOnInit = function () {
     };
     ListComponent.prototype.buttonClicked = function () {
-        console.log("Pretty sure this is not a best practice: " +
-            this.myDiv.nativeElement.innerHTML);
-        this.videoStore.dispatch({ type: "VIDEO_CHANGED", payload: "example payload" });
+        this.videoStore.dispatch({ type: "VIDEO_CHANGED",
+            payload: this.myDiv.nativeElement.innerHTML });
     };
     ListComponent.ctorParameters = function () { return [
         { type: _ngrx_store__WEBPACK_IMPORTED_MODULE_2__["Store"] }
@@ -363,8 +362,8 @@ var VideoComponent = /** @class */ (function () {
         this.store = store;
         this.video$ = store.pipe(Object(_ngrx_store__WEBPACK_IMPORTED_MODULE_2__["select"])('videoLink'));
         this.video$.subscribe(function (videoLink) {
-            console.log("In subscribe(), got: " + videoLink);
             _this.videoLink = videoLink;
+            console.log('video link at: ' + _this.videoLink);
         });
     }
     VideoComponent.prototype.ngOnInit = function () {

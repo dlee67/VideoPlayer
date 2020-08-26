@@ -16,8 +16,8 @@ export class VideoComponent implements OnInit {
   constructor(private store: Store<VideoState>) {
     this.video$ = store.pipe(select('videoLink'));
     this.video$.subscribe((videoLink: string) => {
-      console.log("In subscribe(), got: " + videoLink);
       this.videoLink = videoLink;
+      console.log('video link at: ' + this.videoLink);
     });
   }
 
