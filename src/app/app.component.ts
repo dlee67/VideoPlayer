@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { IpcRenderer } from 'electron';
 
 @Component({
   selector: 'app-root',
@@ -7,7 +8,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'electron-angular-demo';
-  
+  private ipc: IpcRenderer
+
   constructor(){
   }
 }

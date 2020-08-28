@@ -9,8 +9,6 @@ import { VideoComponent } from './components/video/video.component';
 import { ListComponent } from './components/list/list.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
-import { videoReducer } from './reducer/video.reducer';
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,9 +18,6 @@ import { videoReducer } from './reducer/video.reducer';
   ],
   imports: [
     BrowserModule,
-    StoreModule.forRoot(
-      { video: videoReducer }
-    ),
     AppRoutingModule,
     NgbModule
   ],

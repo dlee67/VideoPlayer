@@ -22,7 +22,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<ul class=\"list-group video-list\">\n    <button (click)=\"buttonClicked()\" class=\"song list-group-item\" #someVideo>\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button><button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n</ul>");
+/* harmony default export */ __webpack_exports__["default"] = ("<ul class=\"list-group video-list\">\n    <button (click)=\"buttonClicked()\" class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button><button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n</ul>");
 
 /***/ }),
 
@@ -172,16 +172,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/platform-browser.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
-/* harmony import */ var _ngrx_store__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @ngrx/store */ "./node_modules/@ngrx/store/__ivy_ngcc__/fesm2015/ngrx-store.js");
-/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
-/* harmony import */ var _components_video_player_video_player_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/video-player/video-player.component */ "./src/app/components/video-player/video-player.component.ts");
-/* harmony import */ var _components_video_video_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/video/video.component */ "./src/app/components/video/video.component.ts");
-/* harmony import */ var _components_list_list_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/list/list.component */ "./src/app/components/list/list.component.ts");
-/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ "./node_modules/@ng-bootstrap/ng-bootstrap/__ivy_ngcc__/fesm2015/ng-bootstrap.js");
-/* harmony import */ var _reducer_video_reducer__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./reducer/video.reducer */ "./src/app/reducer/video.reducer.ts");
-
-
+/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+/* harmony import */ var _components_video_player_video_player_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/video-player/video-player.component */ "./src/app/components/video-player/video-player.component.ts");
+/* harmony import */ var _components_video_video_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/video/video.component */ "./src/app/components/video/video.component.ts");
+/* harmony import */ var _components_list_list_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/list/list.component */ "./src/app/components/list/list.component.ts");
+/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ "./node_modules/@ng-bootstrap/ng-bootstrap/__ivy_ngcc__/fesm2015/ng-bootstrap.js");
 
 
 
@@ -197,19 +193,18 @@ var AppModule = /** @class */ (function () {
     AppModule = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
             declarations: [
-                _app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"],
-                _components_video_player_video_player_component__WEBPACK_IMPORTED_MODULE_6__["VideoPlayerComponent"],
-                _components_video_video_component__WEBPACK_IMPORTED_MODULE_7__["VideoComponent"],
-                _components_list_list_component__WEBPACK_IMPORTED_MODULE_8__["ListComponent"]
+                _app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"],
+                _components_video_player_video_player_component__WEBPACK_IMPORTED_MODULE_5__["VideoPlayerComponent"],
+                _components_video_video_component__WEBPACK_IMPORTED_MODULE_6__["VideoComponent"],
+                _components_list_list_component__WEBPACK_IMPORTED_MODULE_7__["ListComponent"]
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
-                _ngrx_store__WEBPACK_IMPORTED_MODULE_3__["StoreModule"].forRoot({ video: _reducer_video_reducer__WEBPACK_IMPORTED_MODULE_10__["videoReducer"] }),
-                _app_routing_module__WEBPACK_IMPORTED_MODULE_4__["AppRoutingModule"],
-                _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_9__["NgbModule"]
+                _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"],
+                _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_8__["NgbModule"]
             ],
             providers: [],
-            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_5__["AppComponent"]]
+            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
         })
     ], AppModule);
     return AppModule;
@@ -244,33 +239,24 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ListComponent", function() { return ListComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
-/* harmony import */ var _ngrx_store__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @ngrx/store */ "./node_modules/@ngrx/store/__ivy_ngcc__/fesm2015/ngrx-store.js");
-
 
 
 var ListComponent = /** @class */ (function () {
-    function ListComponent(videoStore) {
-        this.videoStore = videoStore;
+    function ListComponent() {
     }
     ListComponent.prototype.ngOnInit = function () {
     };
     ListComponent.prototype.buttonClicked = function () {
-        this.videoStore.dispatch({ type: "VIDEO_CHANGED",
-            payload: this.myDiv.nativeElement.innerHTML });
+        console.log("Button clicked");
     };
-    ListComponent.ctorParameters = function () { return [
-        { type: _ngrx_store__WEBPACK_IMPORTED_MODULE_2__["Store"] }
-    ]; };
-    ListComponent.propDecorators = {
-        myDiv: [{ type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"], args: ['someVideo',] }]
-    };
+    ListComponent.ctorParameters = function () { return []; };
     ListComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
             selector: 'app-list',
             template: Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! raw-loader!./list.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/list/list.component.html")).default,
             styles: [Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! ./list.component.css */ "./src/app/components/list/list.component.css")).default]
         }),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [_ngrx_store__WEBPACK_IMPORTED_MODULE_2__["Store"]])
+        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [])
     ], ListComponent);
     return ListComponent;
 }());
@@ -352,63 +338,25 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "VideoComponent", function() { return VideoComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
-/* harmony import */ var _ngrx_store__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @ngrx/store */ "./node_modules/@ngrx/store/__ivy_ngcc__/fesm2015/ngrx-store.js");
-
 
 
 var VideoComponent = /** @class */ (function () {
-    function VideoComponent(store) {
-        var _this = this;
-        this.store = store;
-        this.video$ = store.pipe(Object(_ngrx_store__WEBPACK_IMPORTED_MODULE_2__["select"])('videoLink'));
-        this.video$.subscribe(function (videoLink) {
-            _this.videoLink = videoLink;
-            console.log('video link at: ' + _this.videoLink);
-        });
+    function VideoComponent() {
     }
     VideoComponent.prototype.ngOnInit = function () {
     };
-    VideoComponent.ctorParameters = function () { return [
-        { type: _ngrx_store__WEBPACK_IMPORTED_MODULE_2__["Store"] }
-    ]; };
+    VideoComponent.ctorParameters = function () { return []; };
     VideoComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
             selector: 'app-video',
             template: Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! raw-loader!./video.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/video/video.component.html")).default,
             styles: [Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! ./video.component.css */ "./src/app/components/video/video.component.css")).default]
         }),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [_ngrx_store__WEBPACK_IMPORTED_MODULE_2__["Store"]])
+        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [])
     ], VideoComponent);
     return VideoComponent;
 }());
 
-
-
-/***/ }),
-
-/***/ "./src/app/reducer/video.reducer.ts":
-/*!******************************************!*\
-  !*** ./src/app/reducer/video.reducer.ts ***!
-  \******************************************/
-/*! exports provided: videoReducer */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "videoReducer", function() { return videoReducer; });
-;
-var initialVideo = {
-    videoLink: "Nothing here"
-};
-function videoReducer(state, action) {
-    if (state === void 0) { state = initialVideo; }
-    console.log("In video reducer");
-    switch (action.type) {
-        case "VIDEO_CHANGED":
-            console.log("action payload at: " + action.payload);
-            return action.payload;
-    }
-}
 
 
 /***/ }),

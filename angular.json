@@ -133,7 +133,6 @@
   },
   "defaultProject": "electron-angular-demo",
   "cli": {
-    "defaultCollection": "@ngrx/schematics",
-    "analytics": "ff97751c-039b-48ac-bf21-83896444fd19"
+    "analytics": false
   }
 }

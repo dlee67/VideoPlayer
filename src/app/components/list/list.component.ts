@@ -1,6 +1,4 @@
-import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
-import { Store } from '@ngrx/store';
-import { VideoState } from '../../reducer/video.reducer';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-list',
@@ -8,15 +6,13 @@ import { VideoState } from '../../reducer/video.reducer';
   styleUrls: ['./list.component.css']
 })
 export class ListComponent implements OnInit {
-  @ViewChild('someVideo') myDiv: ElementRef;
 
-  constructor(private videoStore: Store<VideoState>) { }
+  constructor() { }
 
   ngOnInit(): void {
   }
 
   buttonClicked() {
-    this.videoStore.dispatch({ type: "VIDEO_CHANGED", 
-      payload: this.myDiv.nativeElement.innerHTML});
+    console.log("Button clicked");
   }
 }
