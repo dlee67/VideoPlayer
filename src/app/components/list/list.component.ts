@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import { VideoService } from '../../services/video.service';
+
 @Component({
   selector: 'app-list',
   templateUrl: './list.component.html',
@@ -7,12 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ListComponent implements OnInit {
 
-  constructor() { }
+  constructor(private videoService: VideoService) { }
 
   ngOnInit(): void {
   }
 
   buttonClicked() {
-    console.log("Button clicked");
+    this.videoService.sendMessage('Eeeeeaasy, right?');
   }
 }

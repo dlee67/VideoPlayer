@@ -22,7 +22,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<ul class=\"list-group video-list\">\n    <button (click)=\"buttonClicked()\" class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button><button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n    <button class=\"song list-group-item\">\n        https://www.youtube.com/embed/1FksevjN-SM\n    </button>\n</ul>");
+/* harmony default export */ __webpack_exports__["default"] = ("<ul class=\"list-group video-list\">\r\n    <button (click)=\"buttonClicked()\" class=\"song list-group-item\">\r\n        https://www.youtube.com/embed/1FksevjN-SM\r\n    </button>\r\n    <button class=\"song list-group-item\">\r\n        https://www.youtube.com/embed/1FksevjN-SM\r\n    </button><button class=\"song list-group-item\">\r\n        https://www.youtube.com/embed/1FksevjN-SM\r\n    </button>\r\n    <button class=\"song list-group-item\">\r\n        https://www.youtube.com/embed/1FksevjN-SM\r\n    </button>\r\n    <button class=\"song list-group-item\">\r\n        https://www.youtube.com/embed/1FksevjN-SM\r\n    </button>\r\n    <button class=\"song list-group-item\">\r\n        https://www.youtube.com/embed/1FksevjN-SM\r\n    </button>\r\n    <button class=\"song list-group-item\">\r\n        https://www.youtube.com/embed/1FksevjN-SM\r\n    </button>\r\n    <button class=\"song list-group-item\">\r\n        https://www.youtube.com/embed/1FksevjN-SM\r\n    </button>\r\n    <button class=\"song list-group-item\">\r\n        https://www.youtube.com/embed/1FksevjN-SM\r\n    </button>\r\n    <button class=\"song list-group-item\">\r\n        https://www.youtube.com/embed/1FksevjN-SM\r\n    </button>\r\n    <button class=\"song list-group-item\">\r\n        https://www.youtube.com/embed/1FksevjN-SM\r\n    </button>\r\n    <button class=\"song list-group-item\">\r\n        https://www.youtube.com/embed/1FksevjN-SM\r\n    </button>\r\n    <button class=\"song list-group-item\">\r\n        https://www.youtube.com/embed/1FksevjN-SM\r\n    </button>\r\n    <button class=\"song list-group-item\">\r\n        https://www.youtube.com/embed/1FksevjN-SM\r\n    </button>\r\n    <button class=\"song list-group-item\">\r\n        https://www.youtube.com/embed/1FksevjN-SM\r\n    </button>\r\n</ul>");
 
 /***/ }),
 
@@ -35,7 +35,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container-fluid p-0 video-and-list\">\n  <div class=\"row\">\n    <div class=\"col-3 list-container p-0\">\n      <app-list></app-list>\n    </div>\n    <div class=\"youtube-video-container col-9 justify-content-center p-0\">\n      <app-video></app-video>\n    </div>\n  </div>\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"container-fluid p-0 video-and-list\">\r\n  <div class=\"row\">\r\n    <div class=\"col-3 list-container p-0\">\r\n      <app-list></app-list>\r\n    </div>\r\n    <div class=\"youtube-video-container col-9 justify-content-center p-0\">\r\n      <app-video></app-video>\r\n    </div>\r\n  </div>\r\n</div>");
 
 /***/ }),
 
@@ -223,7 +223,7 @@ var AppModule = /** @class */ (function () {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".video-list {\n    overflow-y: auto;\n    height: 100vh;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9saXN0L2xpc3QuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGdCQUFnQjtJQUNoQixhQUFhO0FBQ2pCIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9saXN0L2xpc3QuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi52aWRlby1saXN0IHtcbiAgICBvdmVyZmxvdy15OiBhdXRvO1xuICAgIGhlaWdodDogMTAwdmg7XG59Il19 */");
+/* harmony default export */ __webpack_exports__["default"] = (".video-list {\r\n    overflow-y: auto;\r\n    height: 100vh;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9saXN0L2xpc3QuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGdCQUFnQjtJQUNoQixhQUFhO0FBQ2pCIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9saXN0L2xpc3QuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi52aWRlby1saXN0IHtcclxuICAgIG92ZXJmbG93LXk6IGF1dG87XHJcbiAgICBoZWlnaHQ6IDEwMHZoO1xyXG59Il19 */");
 
 /***/ }),
 
@@ -239,24 +239,29 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ListComponent", function() { return ListComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _services_video_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../services/video.service */ "./src/app/services/video.service.ts");
+
 
 
 var ListComponent = /** @class */ (function () {
-    function ListComponent() {
+    function ListComponent(videoService) {
+        this.videoService = videoService;
     }
     ListComponent.prototype.ngOnInit = function () {
     };
     ListComponent.prototype.buttonClicked = function () {
-        console.log("Button clicked");
+        this.videoService.sendMessage('Eeeeeaasy, right?');
     };
-    ListComponent.ctorParameters = function () { return []; };
+    ListComponent.ctorParameters = function () { return [
+        { type: _services_video_service__WEBPACK_IMPORTED_MODULE_2__["VideoService"] }
+    ]; };
     ListComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
             selector: 'app-list',
             template: Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! raw-loader!./list.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/list/list.component.html")).default,
             styles: [Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! ./list.component.css */ "./src/app/components/list/list.component.css")).default]
         }),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [])
+        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [_services_video_service__WEBPACK_IMPORTED_MODULE_2__["VideoService"]])
     ], ListComponent);
     return ListComponent;
 }());
@@ -274,7 +279,7 @@ var ListComponent = /** @class */ (function () {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".video-and-list {\n    height: 100%;\n}\n\n.youtube-video-container {\n    width: 100%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy92aWRlby1wbGF5ZXIvdmlkZW8tcGxheWVyLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxZQUFZO0FBQ2hCOztBQUVBO0lBQ0ksV0FBVztBQUNmIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy92aWRlby1wbGF5ZXIvdmlkZW8tcGxheWVyLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIudmlkZW8tYW5kLWxpc3Qge1xuICAgIGhlaWdodDogMTAwJTtcbn1cblxuLnlvdXR1YmUtdmlkZW8tY29udGFpbmVyIHtcbiAgICB3aWR0aDogMTAwJTtcbn0iXX0= */");
+/* harmony default export */ __webpack_exports__["default"] = (".video-and-list {\r\n    height: 100%;\r\n}\r\n\r\n.youtube-video-container {\r\n    width: 100%;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy92aWRlby1wbGF5ZXIvdmlkZW8tcGxheWVyLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxZQUFZO0FBQ2hCOztBQUVBO0lBQ0ksV0FBVztBQUNmIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy92aWRlby1wbGF5ZXIvdmlkZW8tcGxheWVyLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIudmlkZW8tYW5kLWxpc3Qge1xyXG4gICAgaGVpZ2h0OiAxMDAlO1xyXG59XHJcblxyXG4ueW91dHViZS12aWRlby1jb250YWluZXIge1xyXG4gICAgd2lkdGg6IDEwMCU7XHJcbn0iXX0= */");
 
 /***/ }),
 
@@ -322,7 +327,7 @@ var VideoPlayerComponent = /** @class */ (function () {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (".youtube-video {\n    height: 100vh;\n    width: 100%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy92aWRlby92aWRlby5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksYUFBYTtJQUNiLFdBQVc7QUFDZiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvdmlkZW8vdmlkZW8uY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi55b3V0dWJlLXZpZGVvIHtcbiAgICBoZWlnaHQ6IDEwMHZoO1xuICAgIHdpZHRoOiAxMDAlO1xufSJdfQ== */");
+/* harmony default export */ __webpack_exports__["default"] = (".youtube-video {\r\n    height: 100vh;\r\n    width: 100%;\r\n}\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy92aWRlby92aWRlby5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksYUFBYTtJQUNiLFdBQVc7QUFDZiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvdmlkZW8vdmlkZW8uY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi55b3V0dWJlLXZpZGVvIHtcclxuICAgIGhlaWdodDogMTAwdmg7XHJcbiAgICB3aWR0aDogMTAwJTtcclxufSJdfQ== */");
 
 /***/ }),
 
@@ -338,23 +343,86 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "VideoComponent", function() { return VideoComponent; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _services_video_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../services/video.service */ "./src/app/services/video.service.ts");
+
 
 
 var VideoComponent = /** @class */ (function () {
-    function VideoComponent() {
+    function VideoComponent(videoService) {
+        var _this = this;
+        this.videoService = videoService;
+        this.messages = [];
+        // subscribe to home component messages
+        this.subscription = this.videoService.getMessage().subscribe(function (message) {
+            if (message) {
+                alert(message.text);
+                _this.messages.push(message);
+            }
+            else {
+                // clear messages when empty message received
+                _this.messages = [];
+            }
+        });
     }
     VideoComponent.prototype.ngOnInit = function () {
     };
-    VideoComponent.ctorParameters = function () { return []; };
+    VideoComponent.prototype.ngOnDestroy = function () {
+        // unsubscribe to ensure no memory leaks
+        this.subscription.unsubscribe();
+    };
+    VideoComponent.ctorParameters = function () { return [
+        { type: _services_video_service__WEBPACK_IMPORTED_MODULE_2__["VideoService"] }
+    ]; };
     VideoComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
             selector: 'app-video',
             template: Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! raw-loader!./video.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/components/video/video.component.html")).default,
             styles: [Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"])(__webpack_require__(/*! ./video.component.css */ "./src/app/components/video/video.component.css")).default]
         }),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [])
+        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [_services_video_service__WEBPACK_IMPORTED_MODULE_2__["VideoService"]])
     ], VideoComponent);
     return VideoComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/services/video.service.ts":
+/*!*******************************************!*\
+  !*** ./src/app/services/video.service.ts ***!
+  \*******************************************/
+/*! exports provided: VideoService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "VideoService", function() { return VideoService; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm2015/index.js");
+
+
+
+var VideoService = /** @class */ (function () {
+    function VideoService() {
+        this.subject = new rxjs__WEBPACK_IMPORTED_MODULE_2__["Subject"]();
+    }
+    VideoService.prototype.sendMessage = function (message) {
+        this.subject.next({ text: message });
+    };
+    VideoService.prototype.clearMessages = function () {
+        this.subject.next();
+    };
+    VideoService.prototype.getMessage = function () {
+        return this.subject.asObservable();
+    };
+    VideoService = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
+            providedIn: 'root'
+        })
+    ], VideoService);
+    return VideoService;
 }());
 
 
@@ -422,7 +490,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/bob/Desktop/VideoPlayer/src/main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! C:\Users\keybo\OneDrive\Desktop\VideoPlayer\src\main.ts */"./src/main.ts");
 
 
 /***/ })
